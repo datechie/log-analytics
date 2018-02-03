@@ -1,0 +1,21 @@
+$python2.7 analysis.py
+Running query to get the 3 most popular articles of all time...
+...done in 44.40 seconds
+Running query to get the most popular authors ...
+...done in 82.58 seconds
+Running query to find days with > 1% of requests with errors...
+...done in 53.91 seconds
+
+What are the most popular three articles of all time?
+ * candidate-is-jerk - 338647 views
+ * bears-love-berries - 253801 views
+ * bad-things-gone - 170098 views
+
+Who are the most popular article authors of all time?
+ * Ursula La Multa - 507594 views
+ * Rudolf von Treppenwitz - 423457 views
+ * Anonymous Contributor - 170098 views
+ * Markoff Chaney - 84557 views
+
+On which days did more than 1% of requests lead to errors?
+ * July 17, 2016 - 2.26% errors
