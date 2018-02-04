@@ -10,7 +10,7 @@ The project connects to multiple tables in the news Postgresql DB to produce rep
 
 # Install
 * Clone the repository using the command
-  `git clone https://github.com/datechie/log-analytics.git`
+  - `git clone https://github.com/datechie/log-analytics.git`
 
 # Setup
 Run the following commands while connected to the **news** database using postgresql in the order specified below.
