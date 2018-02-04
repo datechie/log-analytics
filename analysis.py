@@ -53,7 +53,7 @@ for b in range(len(rows2)):
 print("\nOn which days did more than 1% of requests lead to errors?")
 for c in range(len(rows3)):
     # Change the date format to be like July 2, 2018
-    request_date = rows3[c][0].strftime("%B %d, %Y")
+    request_date = rows3[c][0]
     # Rounding the percentage to two decimals
     percent = round(rows3[c][1], 2)
     print(" * {} - {}% errors").format(request_date, percent)
